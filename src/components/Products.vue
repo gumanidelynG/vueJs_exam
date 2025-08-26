@@ -25,11 +25,11 @@ import { formatCurrency } from '../helpers.js'
 const showPrices = true
 
 const products = [
-  { name: 'T-shirt', price: 19.99 },
-  { name: 'Jeans', price: 49.99 },
-  { name: 'Jacket', price: 89.99 },
-  { name: 'Luxury Coat', price: 1200 },
-  { name: 'Designer Dress', price: 1500 },
+  { name: 'Sweetshirt', price: 79.99 },
+  { name: 'Baggy Jeans', price: 99.99 },
+  { name: 'Jackets', price: 99.99 },
+  { name: 'Coat', price: 1200 },
+  { name: 'Dress', price: 1500 },
 ]
 
 const totalPrice = computed(() =>
